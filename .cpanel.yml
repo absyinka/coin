@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/forkgujk/public_html/demo-app
+    - export DEPLOYPATH=/home/forkgujk/demoapp
     - /bin/cp -a * $DEPLOYPATH
