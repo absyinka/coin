@@ -45,7 +45,7 @@ html .bg-color-hover-primary:hover, html .bg-hover-primary:hover {
 }
 
 html .bg-color-tertiary, html .bg-tertiary {
-    background-color: #032366 !important;
+    background-color: #032300 !important;
 }
 
 .bg-gradient {
@@ -53,7 +53,7 @@ html .bg-color-tertiary, html .bg-tertiary {
 }
 
 html .bg-color-dark, html .bg-dark {
-    background-color: #032366 !important;
+    background-color: #032300 !important;
 }
 
 html .bg-color-hover-dark:hover, html .bg-hover-dark:hover {
@@ -134,11 +134,11 @@ html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav>ul>li ul {
 }
 
 html .text-color-dark, html .text-dark {
-    color: #2a3366 !important;
+    color: #032300 !important;
 }
 
 html .text-color-hover-dark:hover, html .text-hover-dark:hover {
-    color: #2a3366 !important;
+    color: #032300 !important;
 }
 
 h2.custom-bar:after {
@@ -211,7 +211,7 @@ html .btn-primary:hover, html .btn-primary.hover {
 .custom-accordion-style-1 .card-header .card-title a:not(.collapsed) {
     color: #FFF !important;
     border-left-color: #FFF;
-    background: #032366;
+    background: #032300;
 }
 
 .custom-accordion-style-1 .card-header .card-title a:not(.collapsed):after {
