@@ -160,6 +160,22 @@ h2.custom-bar:after {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FF31', endColorstr='#00e62a', GradientType=1);
 }
 
+.custom-btn-style-2 {
+    border-radius: 50px;
+    border-width: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 8px 24px;
+    background: transparent !important;
+    border-color: #032300 !important;
+    opacity: 0.5;
+}
+
+.custom-btn-style-2:hover, .custom-btn-style-2:hover:active, .custom-btn-style-2.active, .custom-btn-style-2:focus {
+    border-color: #00FF31 !important;
+}
+
 html .btn-primary {
     background-color: #00FF31;
     border-color: #00FF31 #00FF31 #00e62a;
@@ -170,4 +186,38 @@ html .btn-primary:hover, html .btn-primary.hover {
     background-color: #00e62a;
     border-color: #00e62a #00e62a #00FF31;
     color: #FFF;
+}
+
+.feature-box.feature-box-style-3 .feature-box-icon [class*="fa-"], .feature-box.feature-box-style-3 .feature-box-icon .icons {
+    color: #00e62a;
+}
+
+/*
+* Navigation
+*/
+
+#header .header-btn-collapse-nav {
+    background: #00e62a;
+}
+
+#header .header-nav.header-nav-links nav>ul:not(:hover)>li>a.active {
+    color: #00e62a;
+}
+
+/*
+* FAQ'S
+*/
+
+.custom-accordion-style-1 .card-header .card-title a:not(.collapsed) {
+    color: #FFF !important;
+    border-left-color: #FFF;
+    background: #032366;
+}
+
+.custom-accordion-style-1 .card-header .card-title a:not(.collapsed):after {
+    border-color: #FFF transparent transparent transparent;
+}
+
+#footer .footer-copyright nav ul li:hover a {
+    color: #00FF31 !important;
 }
