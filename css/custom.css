@@ -1,1 +1,173 @@
 /* Add here all your CSS customizations */
+
+a {
+    color: #00FF31;
+}
+
+a:hover {
+    color: #00ff33;
+}
+
+a:focus {
+    color: #00FF31;
+}
+
+a:active {
+    color: #00FF31;
+}
+
+html .text-color-primary, html .text-primary {
+    color: #00FF31 !important;
+}
+
+html .text-color-hover-primary:hover, html .text-hover-primary:hover {
+    color: #00FF31 !important;
+}
+
+html .text-color-tertiary, html .text-tertiary {
+    color: #2a3366 !important;
+}
+
+.gradient-text-color {
+    color: #00FF31;
+    background: -webkit-gradient(linear, left top, right bottom, from(#00FF31), to(#fff3f2));
+    background: linear-gradient(to bottom right, #00FF31, #fff3f2);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00FF31), to(#fff3f2));
+    background-image: linear-gradient(to right, #00FF31, #fff3f2);
+}
+
+html .bg-color-primary, html .bg-primary {
+    background-color: #032300 !important;
+}
+
+html .bg-color-hover-primary:hover, html .bg-hover-primary:hover {
+    background-color: #032300 !important;
+}
+
+html .bg-color-tertiary, html .bg-tertiary {
+    background-color: #032366 !important;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #032300 0%, #fff3f2 80%);
+}
+
+html .bg-color-dark, html .bg-dark {
+    background-color: #032366 !important;
+}
+
+html .bg-color-hover-dark:hover, html .bg-hover-dark:hover {
+    background-color: #032366 !important;
+}
+
+/* Color Transition */
+
+@-webkit-keyframes colorTransition {
+    0% {
+        background-color: #032300;
+    }
+    33% {
+        background-color: #fff3f2;
+    }
+    66% {
+        background-color: #032366;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+
+@keyframes colorTransition {
+    0% {
+        background-color: #032300;
+    }
+    33% {
+        background-color: #fff3f2;
+    }
+    66% {
+        background-color: #032366;
+    }
+    100% {
+        background-color: #000;
+    }
+}
+
+html .border-color-primary {
+    border-color: #00FF31 !important;
+}
+
+html .border-color-hover-primary:hover {
+    border-color: #00FF31 !important;
+}
+
+.alternative-font {
+    color: #00FF31;
+}
+
+html .box-shadow-1-primary:before {
+    -webkit-box-shadow: 0 30px 90px #00FF31 !important;
+    box-shadow: 0 30px 90px #00FF31 !important;
+}
+
+html .blockquote-primary {
+    border-color: #00FF31 !important;
+}
+
+p.drop-caps:first-letter {
+    color: #00FF31;
+}
+
+p.drop-caps.drop-caps-style-2:first-letter {
+    background-color: #00FF31;
+}
+
+html .nav-color-primary nav>ul>li>a {
+    color: #00FF31 !important;
+}
+
+html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav>ul>li>a:before {
+    background-color: #00FF31 !important;
+}
+
+html .nav-color-primary:not(.header-nav-main-dropdown-arrow) nav>ul>li ul {
+    border-top-color: #00FF31 !important;
+}
+
+html .text-color-dark, html .text-dark {
+    color: #2a3366 !important;
+}
+
+html .text-color-hover-dark:hover, html .text-hover-dark:hover {
+    color: #2a3366 !important;
+}
+
+h2.custom-bar:after {
+    border-bottom-color: #032300;
+}
+
+.custom-btn-style-1, .custom-btn-style-1:active {
+    background: #00FF31;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #00FF31), color-stop(100%, hsl(131, 100%, 45%)));
+    background: -webkit-gradient(linear, left top, right top, from(#00FF31), to( hsl(131, 100%, 45%)));
+    background: linear-gradient(to right, #00FF31 0%, hsl(131, 100%, 45%) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FF31', endColorstr='#00e62a', GradientType=1);
+}
+
+.custom-btn-style-1._borders:hover, .custom-btn-style-1._borders:active, .custom-btn-style-1._borders:focus {
+    border-color: #00FF31;
+    background: -webkit-gradient(linear, left top, right top, from(#00FF31), to(#00e62a));
+    background: linear-gradient(to right, #00FF31 0%, #00e62a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FF31', endColorstr='#00e62a', GradientType=1);
+}
+
+html .btn-primary {
+    background-color: #00FF31;
+    border-color: #00FF31 #00FF31 #00e62a;
+    color: #FFF;
+}
+
+html .btn-primary:hover, html .btn-primary.hover {
+    background-color: #00e62a;
+    border-color: #00e62a #00e62a #00FF31;
+    color: #FFF;
+}
