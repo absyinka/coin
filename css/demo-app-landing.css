@@ -522,7 +522,7 @@ html:not(.sticky-header-active) #header .header-nav.header-nav-links nav>ul li:h
   height: 100%;
   top: 0;
   left: 0;
-  background: url("../../img/app-landing/smartphone.png");
+  background: url("../img/app-landing/smartphone.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }

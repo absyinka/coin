@@ -16,6 +16,10 @@ a:active {
     color: #00FF31;
 }
 
+html:not(.sticky-header-active) #header.header-transparent:not(.header-semi-transparent) .header-body {
+    background-color: #032300 !important;
+}
+
 html .text-color-primary, html .text-primary {
     color: #00FF31 !important;
 }
@@ -220,4 +224,8 @@ html .btn-primary:hover, html .btn-primary.hover {
 
 #footer .footer-copyright nav ul li:hover a {
     color: #00FF31 !important;
+}
+
+.mt-lg-5 {
+    margin-top: 7rem !important;
 }
