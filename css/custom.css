@@ -208,6 +208,18 @@ html .btn-primary:hover, html .btn-primary.hover {
     color: #00e62a;
 }
 
+.nav-pills>li.active>a, .nav-pills .nav-link.active {
+    background-color: #00e62a;
+}
+
+.nav-pills>li.active>a:hover, .nav-pills .nav-link.active:hover, .nav-pills>li.active>a:focus, .nav-pills .nav-link.active:focus {
+    background-color: #00e62a;
+}
+
+.nav-active-style-1>li>a:hover, .nav-active-style-1>li>a:focus, .nav-active-style-1>li>a.active {
+    border-bottom-color: #00e62a;
+}
+
 /*
 * FAQ'S
 */
