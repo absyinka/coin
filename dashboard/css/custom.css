@@ -1,0 +1,70 @@
+/* Add here all your CSS customizations */
+
+body {
+    background-color: #FFF;
+}
+
+.body-sign .card-sign .card-title-sign .title {
+    background-color: #032300;
+}
+
+.body-sign .card-sign .card-body {
+    border-top: 5px solid #032300;
+    border-radius: 3px 0 3px 3px;
+}
+
+.btn-primary {
+    background-color: #032300;
+    border-color: #032300 #032300 #b3b3b3;
+    color: #FFF;
+}
+
+a {
+    color: #032366;
+}
+
+.nav-link-hover:hover
+{
+    border-left: #00FF31 solid 5px;;
+}
+
+.text-custom-1 {
+    color: #032366;
+}
+
+.text-custom-2 {
+    color: #00FF31;
+    font-weight: bold;
+}
+
+.card-featured-top {
+    border-top: 3px solid #00FF31;
+}
+
+.card-featured-right {
+    border-right: 3px solid #00FF31;
+}
+
+.card-featured-bottom {
+    border-bottom: 3px solid #00FF31;
+}
+
+.card-featured-left {
+    border-left: 3px solid #00FF31;
+}
+
+.card-featured-primary {
+    border-color: #00FF31;
+}
+
+.header{
+    background-color: #032300;
+}
+
+.profile-info > .name {
+    color: #000000;
+}
+
+.userbox .name {
+    color: #ddd;
+}
