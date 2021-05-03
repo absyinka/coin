@@ -1,0 +1,63 @@
+<aside id="sidebar-left" class="sidebar-left">
+
+    <div class="sidebar-header">
+        <div class="sidebar-title">
+            Navigation
+        </div>
+        <div class="sidebar-toggle d-none d-md-block" data-toggle-class="sidebar-left-collapsed" data-target="html"
+            data-fire-event="sidebar-left-toggle">
+            <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+        </div>
+    </div>
+
+    <div class="nano">
+        <div class="nano-content">
+            <nav id="menu" class="nav-main" role="navigation">
+
+                <ul class="nav nav-main">
+                    <li>
+                        <a class="nav-link nav-link-hover" href="dashboard-overview.html">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link nav-link-hover" href="fiat-spot.html">
+                            <i class="fas fa-wallet" aria-hidden="true"></i>
+                            <span>Deposit/Withrawal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-hover" href="p2p.html">
+                            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            <span>P2P</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-hover" href="settings.html">
+                            <i class="fas fa-cogs " aria-hidden="true"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <script>
+            // Maintain Scroll Position
+            if (typeof localStorage !== 'undefined') {
+                if (localStorage.getItem('sidebar-left-position') !== null) {
+                    var initialPosition = localStorage.getItem('sidebar-left-position'),
+                        sidebarLeft = document.querySelector('#sidebar-left .nano-content');
+
+                    sidebarLeft.scrollTop = initialPosition;
+                }
+            }
+        </script>
+
+
+    </div>
+
+</aside>

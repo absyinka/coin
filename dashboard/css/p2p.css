@@ -1,0 +1,33 @@
+.estimated-value{
+    /* border: 2px solid red; */
+}
+.estimated-value > span{
+    font-size: 1.2em;
+}
+.btc-balance{
+    color: black;
+    margin: 0px;
+}
+.btc-balance :nth-child(1) {
+    font-size: 0.7em;
+}
+.btc-balance :nth-child(2) {
+    font-size: 0.5em;
+    letter-spacing: 1px;
+}
+.coin-icon{
+    margin-right: 7px;
+}
+.coin-actions{
+    display: flex;
+    justify-content: space-around;
+    color: green  !important;
+}
+.coin-actions > a{
+   
+    color: green  !important;
+}
+.coin-actions > a:hover{
+   
+    color: rgb(105, 145, 105)  !important;
+}

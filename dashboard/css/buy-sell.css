@@ -1,0 +1,47 @@
+
+.advertiser-data > div{
+    font-size: 12px;
+}
+.advertiser-name{
+   font-size: 15px;
+   font-weight: 900px;
+   color: black;
+}
+.advertiser-data>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy-sell-data{
+    vertical-align: middle !important;
+}
+
+td[data-title="Price"]{
+    font-size: 1.3em;
+}
+td[data-title="Price"] > span{
+    font-size: 0.7em;
+}
+
+.buy-account-details-single{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black !important;
+}
+
+.modal-divider{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+#seller-price{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+#quantity-form{
+
+}

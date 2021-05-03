@@ -1,0 +1,308 @@
+<!doctype html>
+<html class="fixed sidebar-light" data-style-switcher-options="{'sidebarColor': 'light'}">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="UTF-8">
+
+    <title>Overview - Wallet - CoinVail</title>
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light"
+        rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/animate/animate.css">
+
+    <link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+    <!-- Specific Page Vendor CSS -->
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="vendor/morris/morris.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css" />
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/buy-sell.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.js"></script>
+    <script src="master/style-switcher/style.switcher.localstorage.js"></script>
+
+</head>
+
+<body>
+    <section class="body">
+
+        <!-- start: header -->
+        <header class="header">
+            <div class="logo-container">
+                <a href="#" class="logo"> <img src="../img/cv_logo.png" width="100" height="35" alt="Porto Admin" />
+                </a>
+                <div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
+                    data-fire-event="sidebar-left-opened"> <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
+                </div>
+            </div>
+
+            <!--Start notification drop-down and profile-->
+            <div class="header-right">
+
+
+            </div>
+            <!-- end: search & user box -->
+        </header>
+        <!-- end: header -->
+
+        <div class="inner-wrapper">
+            <!-- start: sidebar -->
+            <aside id="sidebar-left" class="sidebar-left">
+
+            </aside>
+
+            <!-- end: sidebar -->
+
+            <section role="main" class="content-body" style="background-color: #f8f4f4;">
+                <header class="page-header">
+                    <h2>BUY</h2>
+                </header>
+
+
+                <!-- start: page -->
+                <div class="container-fluid">
+                    <!-- Buy modal -->
+
+
+                    <div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="buyModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title" id="buyModalLabel">Buy BTC</h2>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row" style="flex-direction: column;">
+                                            <div class="buy-account-details">
+                                                <h3 class="center black"> <i class="fas fa-university"></i> Account Details</h3>
+                                                <p class="center">You will have to pay into the account below</p>
+                                                <div class="buy-account-details-single">
+                                                    <h4>Bank Name</h4>
+                                                    <span>Wema Bank</span>
+                                                </div>
+                                                <div class="buy-account-details-single">
+                                                    <h4>Account Number</h4>
+                                                    <span>082345652</span>
+                                                </div>
+                                                <div class="buy-account-details-single">
+                                                    <h4>Account Name</h4>
+                                                    <span>Advertiser 1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-divider"></div>
+                                            <div class="center">
+                                                <form action="#" id="quantity-form" class="mt-4">
+                                                    <div class="form-group row center" style="width: 70%; margin: 0px auto; max-width: 250px">
+                                                        <label class="col-sm-3 mr-3" for="coin-Quanity">Quanity</label>
+                                                        <input  class="col-sm-8" type="number" class="form-control" id="coin-Quanity" aria-describedby="quantityHelp" placeholder="Enter Coin Quantity">
+                                                        <small id="quantityHelp" class="form-text center text-muted">Enter Desired Coin Quantity The price changes based on the quantity and rate</small>
+                                                      </div>
+                                                </form>
+                                                <h4>Seller Expecting</h4>
+                                                <p id="seller-price">15,000,000 <span>NGN</span></p>
+                                            </div>
+                                            <div class="modal-divider"></div>
+                                            <div>
+                                                <p>If the seller refuses to release crypto after 10 mins, please file a petition by clicking the petition button below or dial 08132145672</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Petition</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal ends  -->
+
+
+                    <section class="card mb-4">
+                        <div class="card-body">
+                            <table class="table table-no-more table-bordered table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-right">Advertisers</th>
+                                        <th class="text-right">Price</th>
+                                        <th class="text-right">Limit/Availabe</th>
+                                        <th class="text-right">Payment</th>
+                                        <th class="text-right">Trade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-title="Advertiser" class="text-left advertiser-data buy-sell-data">
+                                            <p class="advertiser-name">Advertiser Two</p>
+                                            <div>
+                                                <span>321 orders</span>
+                                                <span>95% completion</span>
+                                            </div>
+                                        </td>
+                                        <td data-title="Price" class="text-left buy-sell-data">
+                                            1,5000
+                                            <span>NGN</span>
+                                        </td>
+                                        <td data-title="Limit/Availabe" class="text-left buy-sell-data">
+                                            <p>Available <span>30.131 BTC</span>
+                                            <p>
+                                            <p>Limit <span>N 100,000.00 - N10,000,000.00</span></p>
+                                        </td>
+                                        <td data-title="Payment" class="text-left buy-sell-data">
+                                            Bank Transfer
+                                        </td>
+                                        <td data-title="Trade" class="text-left coin-actions buy-sell-data">
+                                            <button class="btn btn-success" data-toggle="modal"
+                                                data-target="#buyModal">Buy</button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-title="Advertiser" class="text-left advertiser-data buy-sell-data">
+                                            <p class="advertiser-name">Advertiser Two</p>
+                                            <div>
+                                                <span>321 orders</span>
+                                                <span>95% completion</span>
+                                            </div>
+                                        </td>
+                                        <td data-title="Price" class="text-left buy-sell-data">
+                                            1,5000
+                                            <span>NGN</span>
+                                        </td>
+                                        <td data-title="Limit/Availabe" class="text-left buy-sell-data">
+                                            <p>Available <span>30.131 BTC</span>
+                                            <p>
+                                            <p>Limit <span>N 100,000.00 - N10,000,000.00</span></p>
+                                        </td>
+                                        <td data-title="Payment" class="text-left buy-sell-data">
+                                            Bank Transfer
+                                        </td>
+                                        <td data-title="Trade" class="text-left coin-actions buy-sell-data">
+                                            <button class="btn btn-success">Buy</button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-title="Advertiser" class="text-left advertiser-data buy-sell-data">
+                                            <p class="advertiser-name">Advertiser Three</p>
+                                            <div>
+                                                <span>321 orders</span>
+                                                <span>95% completion</span>
+                                            </div>
+                                        </td>
+                                        <td data-title="Price" class="text-left buy-sell-data">
+                                            1,5000
+                                            <span>NGN</span>
+                                        </td>
+                                        <td data-title="Limit/Availabe" class="text-left buy-sell-data">
+                                            <p>Available <span>30.131 BTC</span>
+                                            <p>
+                                            <p>Limit <span>N 100,000.00 - N10,000,000.00</span></p>
+                                        </td>
+                                        <td data-title="Payment" class="text-left buy-sell-data">
+                                            Bank Transfer
+                                        </td>
+                                        <td data-title="Trade" class="text-left coin-actions buy-sell-data">
+                                            <button class="btn btn-success">Buy</button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-title="Advertiser" class="text-left advertiser-data buy-sell-data">
+                                            <p class="advertiser-name">Advertiser one</p>
+                                            <div>
+                                                <span>321 orders</span>
+                                                <span>95% completion</span>
+                                            </div>
+                                        </td>
+                                        <td data-title="Price" class="text-left buy-sell-data">
+                                            1,5000
+                                            <span>NGN</span>
+                                        </td>
+                                        <td data-title="Limit/Availabe" class="text-left buy-sell-data">
+                                            <p>Available <span>30.131 BTC</span>
+                                            <p>
+                                            <p>Limit <span>N 100,000.00 - N10,000,000.00</span></p>
+                                        </td>
+                                        <td data-title="Payment" class="text-left buy-sell-data">
+                                            Bank Transfer
+                                        </td>
+                                        <td data-title="Trade" class="text-left coin-actions buy-sell-data">
+                                            <button class="btn btn-success">Buy</button>
+
+                                        </td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+
+            </section>
+        </div>
+
+
+    </section>
+
+    <script src="js/loadtemplates.js"></script>
+
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+    <script src="vendor/jquery-cookie/jquery.cookie.js"></script>
+    <script src="master/style-switcher/style.switcher.js"></script>
+    <script src="vendor/popper/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="vendor/common/common.js"></script>
+    <script src="vendor/nanoscroller/nanoscroller.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="vendor/jquery-placeholder/jquery.placeholder.js"></script>
+
+    <!-- Specific Page Vendor -->
+    <script src="vendor/jquery-ui/jquery-ui.js"></script>
+    <script src="vendor/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
+    <script src="vendor/jquery-appear/jquery.appear.js"></script>
+    <script src="vendor/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+
+</body>
+
+</html>
